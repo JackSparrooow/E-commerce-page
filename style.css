@@ -31,13 +31,6 @@
  .logo a .one {
      color: rgb(95, 132, 39);
  }
-
- .logo .two {
-     color: rgb(222, 9, 58);
-     font-size: 4rem;
-     padding-left: .3rem;
- }
-
  .navbar a {
      padding: 0px .8rem;
      margin-right: 1.9rem;
@@ -373,7 +366,7 @@
      padding-top: 1rem;
  }
 
- .footer-col-2 .folow h2 {
+ .footer-col-2 .follow h2 {
      text-transform: uppercase;
      font-size: 1.5rem;
      text-align: center;
@@ -442,23 +435,28 @@
  @media only screen and (max-width:650px){
 
     .nav .logo a{
-        font-size: 3rem;
+        font-size: 1rem;
     }
 
     .navbar a{
-        font-size: .9rem;
+        font-size: .1rem;
     }
 
     .nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 1.2rem;
+        padding: 1rem;
     }
 
     .footer {
         font-size: .5rem;
         padding: .8rem .8rem;
+    }
+
+    .footer-col-2 .follow h2 {
+        font-size: .8rem;
+
     }
 
     .footer-col-2 a{
@@ -496,7 +494,7 @@
     }
 
     .footer-col-2 a{
-       font-size: 1.5rem;
+       font-size: 1rem;
     }
 
     .footer-col-1 h3{
@@ -534,7 +532,7 @@
     }
 
     .footer-col-2 a{
-       font-size: 1rem;
+       font-size: .7rem;
     }
 
     .footer-col-1 h3{
@@ -550,6 +548,43 @@
     }
     .copyright{
        font-size: .7rem;
+    }  
+
+ }
+
+ @media only screen and (max-width:480px){
+
+    .nav .logo a{
+        font-size: 1rem;
+    }
+
+    .navbar a{
+        font-size: .6rem;
+        font-weight: 500;
+    }
+
+    .footer {
+        font-size: .2rem;
+        padding: 1rem 1rem;
+    }
+
+    .footer-col-2 a{
+       font-size: .7rem;
+    }
+
+    .footer-col-1 h3{
+       font-size: .7rem;
+    }
+    .footer-col-1 p{
+       font-size: .5rem;
+    }
+
+    .footer-col-1 .app-logo img{
+        width: 4rem;
+        height: 2.2rem;
+    }
+    .copyright{
+       font-size: .6rem;
     }  
 
  }
